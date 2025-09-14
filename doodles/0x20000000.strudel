@@ -1,0 +1,10 @@
+// An excerpt of trombone from G.P. by Yutaka Yamada that I like
+// https://web.archive.org/web/20250914185236/https://musescore.com/user/56278349/scores/22782163
+//
+// I like the free-falling feeling this part has and rhythm is interesting.
+// It can be broken down as [two dotted eigth notes and an eigth note] repeated thrice, followed by a note stretched out
+// The source has accents, which enhance the feeling, but i dont know how to do that in strudel yet
+
+setCpm(155/4)
+
+$: note("~@4 c3@12 b3@12 e3@8 b3@12 ab3@12 e3@8 g3@12 gb3@12 d3@8 f3@24").slow(2).sound("sawtooth").lpf(800)
